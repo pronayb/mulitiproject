@@ -32,10 +32,8 @@
           <profile>
            <id>compile</id>
           </profile>
-
-
           <profile> 
-           <id> test</id>
+           <id>test</id>
             <build>
                 <plugins>
                     <plugin>
@@ -82,8 +80,6 @@
                               </execution>
                          </executions>
                  </plugin>
-
-
             </plugins>
         </build>
     </profile>
