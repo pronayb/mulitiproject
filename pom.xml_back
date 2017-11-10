@@ -3,7 +3,7 @@
 	
 	<groupId>org.tektutor</groupId>
 	<artifactId>crm</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.2</version>
 	<packaging>pom</packaging>
 
 	<distributionManagement>
@@ -28,32 +28,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-        <profiles>
-          <profile>
-           <id>compile</id>
-          </profile>
 
-
-          <profile> 
-           <id> test</id>
-            <build>
-              <plugins>
-                <plugin>
-                 <groupId>org.apache.mavenPlugins</groupId> 
-                <artifactId>maven-compile-plugin</artifactId>
-                <version>3.1</version>
-                <executions>
-                   <execution>
-
-                  <id>default</id>
-                  <phase>none</phase>
-                  </execution>
-               </executions>
-                </plugin>
-             </plugins>
-            </build>
-
-          </profile>
 	<modules>
 		<module>frontend</module>
 		<module>businesslayer</module>
